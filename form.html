@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<title> Category Form's </title>
+</head>
+
+
+
+	<body>
+		<table cellspacing="15px" cellpadding="15px" border="10px" width="100%" height="100%">
+		<tr height="5%" style="background-color:afFFfa;">
+			<header>
+			<td width="5%" colspan="2" border="5px"><a href="index.html"><img src="images/logo.png" align="center"></a></td> <td border="5px" colspan="3"><h1 align="center">HTML Book</h1></td>
+			</header>
+		</tr>
+		<tr>
+		<td colspan="5">
+</br>
+	<fieldset>
+	<legend><h1>List of input(s)</h1> </legend>
+	<form method="post" action="URL" autocomplete>
+		<h2>Choose the Variant</h2>
+			<input type="radio" name="choosevariant" id="1"> Select 1 </input>
+			<input type="radio" name="choosevariant" id="2"> Select 2 </input>
+			<input type="radio" name="choosevariant" id="3"> Select 3 </input>
+ </br> 	</br>
+		<h2>Select need Variant(s)</h2>
+			<input type="checkbox" name="choosevariant" id="1"> Choose 1 </input>
+			<input type="checkbox" name="choosevariant" id="2"> Choose 2 </input>
+			<input type="checkbox" name="choosevariant" id="3"> Choose 3 </input>
+ </br>  </br>
+		<h2> User Login </h2>
+			<input required type="login" name="user-login" maxlength="20" placeholder="Login..."> </input>
+		<h2> User Password </h2>
+			<input required type="password"  maxlength="20" name="user-pass" placeholder="N-Word Pass..."> </input>
+		<h2> User E-Mail </h2>
+			<input required type="email" name="user-email" maxlength="30" placeholder="E-mail..."> </input>
+		<h2> Information about User </h2>
+			<textarea placeholder="some text..." cols="60" rows="15"></textarea>
+		<h2> Choose your Gender </h2>
+			<select>
+				<option selected disabled> *Choose Gender* </option>
+				<option> Bisexual </option>
+				<option> Trans </option>
+				<option> Homosexual </option>
+				<option> Asexual </option>
+				<option> Pansexual </option>
+				<option> Polysexual </option>
+				<option> Autosexual </option>
+			</select>
+		<h2> Choose Favorite Color </h2>
+			<input type="color" name="user-fav-color">
+		<h2> Enter your Birthday </h2>
+			<input type="date" name="user-birthday">
+		<h2> Enter Favorite Number </h2>
+			<input type="number" name="user-fav-num" min="0" cols="20" placeholder="Some Number">
+		<h2> Enter your Number</h2>
+			<input type="tel" name="user-tel-number" maxlength="13" placeholder="+7900000000">
+		<h2> Own web site </h2>
+			<input type="url" name="user-site" placeholder="html:\\vk.com/id01">
+		<h2> Your Photo </h2>
+			<input type="file" name="user-photo" value="Choose file">
+<br/> <br/>
+			<input type="reset" name="reset-form" value="Reset Form.">
+			<input type="submit" name="LoginIn" value="Login In.">
+
+	</form>
+	</fieldset>
+	</td>
+	</tr>
+		</table>
+	</body>
+
+</html>
+
+
+
+
+<style>
+
+body {
+	background-color: #5099ff;
+	background-size: 50%;
+}
+</style>
